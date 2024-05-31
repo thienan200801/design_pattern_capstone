@@ -1,0 +1,127 @@
+.videos-page {
+  padding-right: 30px;
+  padding-bottom: 40px;
+
+  &__header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 24px;
+      font-weight: 500;
+    }
+
+    button {
+      width: 150px;
+      height: 36px;
+      transition: all 0.3s;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 500;
+      border: 1px solid #35509a;
+      color: #000;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #35509a;
+        color: #fff;
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 20px;
+    width: 100%;
+
+    .pagination {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+      padding: 10px 12px;
+      background-color: #fafafa;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+    }
+  }
+}
+
+.upload-video-modal {
+  .row__input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 40px;
+      padding: 10px 15px;
+      border: 1px solid #282828;
+      border-radius: 5px;
+      font-size: 16px;
+
+      &::placeholder {
+        color: #bbb;
+      }
+
+      &:focus {
+        border-color: #03045e;
+        outline-color: #03045e;
+      }
+    }
+  }
+
+  &__footer {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    button {
+      width: 30%;
+      height: 36px;
+      transition: all 0.3s;
+      background-color: transparent;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 5px;
+      cursor: pointer;
+      border: 0;
+      outline: none;
+
+      background-color: #1eaae7;
+      color: #fff;
+
+      &:hover {
+        background-color: #148abe;
+      }
+    }
+  }
+}
+
+.link-video {
+  font-size: 14px;
+  color: #000;
+
+  &:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+}

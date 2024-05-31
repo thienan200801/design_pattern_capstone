@@ -1,0 +1,22 @@
+.matchingBtnGroup {
+    display: flex;
+    justify-content: space-evenly;
+}
+.matchingBtnGroup > button {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+}
+.matchingBtnGroup > button:first-child {
+    color: red;
+}
+.matchingBtnGroup > button:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.matchingBtnGroup > button:last-child {
+    color: green;
+    margin-bottom: 10px;
+}

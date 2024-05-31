@@ -1,0 +1,60 @@
+.matchingTitle {
+    font-weight: 600;
+    font-size: 40px;
+}
+.customBtn{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #1C5296;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #1C5296;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customActiveBtn {
+    margin-top: 10px;
+    background-color: #1C5296;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.customActiveBtn > svg, .customBtn > svg {
+    margin-right: 10px;
+}
+.customActiveBtn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+.customBtn:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #1C5296;
+    color: #fff;
+}
+.matchBtnGroup {
+    display: flex;
+}
+.firstBtn {
+    margin-right: 10px;
+}
+
+.personalCartGroup {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.customPagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

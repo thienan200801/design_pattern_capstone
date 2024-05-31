@@ -1,0 +1,10 @@
+.searchInput {
+    width: 500px;
+    margin-left: -400px;
+}
+.searchInput > span {
+    background-color: #ccc;
+}
+.searchInput > input {
+    background-color: #ccc;
+}
